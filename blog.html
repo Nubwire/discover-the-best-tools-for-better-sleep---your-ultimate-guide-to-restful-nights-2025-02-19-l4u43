@@ -1,84 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CN2MKZB7F7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-CN2MKZB7F7');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sleep Guide Blog - Expert Sleep Tips & Insights</title>
-    <meta name="description" content="Discover expert-reviewed sleep products and personalized sleep solutions for better rest.">
+    <title>Sleep Guide Blog - Expert Sleep Tips & Advice</title>
+    <meta name="description" content="Read the latest sleep research, tips, and product reviews from our team of sleep experts.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="font-sans antialiased bg-gray-50">
+    <!-- Header -->
     <header class="fixed w-full bg-white shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="https://Nubwire.github.io/discover-the-best-tools-for-better-sleep---your-ultimate-guide-to-restful-nights-2025-02-19-l4u43" class="text-2xl font-bold text-blue-600">
-                    SleepGuide
-                </a>
-                <a href="https://Nubwire.github.io/discover-the-best-tools-for-better-sleep---your-ultimate-guide-to-restful-nights-2025-02-19-l4u43" class="text-gray-600 hover:text-blue-600 transition duration-300">
-                    ← Back
-                </a>
+                <a href="index.html" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition duration-300">SleepGuide</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html#features" class="text-gray-600 hover:text-blue-600 transition duration-300">Features</a>
+                    <a href="index.html#benefits" class="text-gray-600 hover:text-blue-600 transition duration-300">Benefits</a>
+                    <a href="index.html#testimonials" class="text-gray-600 hover:text-blue-600 transition duration-300">Testimonials</a>
+                    <a href="index.html#about" class="text-gray-600 hover:text-blue-600 transition duration-300">About Us</a>
+                    <a href="blog.html" class="text-blue-600 font-semibold hover:text-blue-700 transition duration-300">Blog</a>
+                    <a href="products.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Products</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
+                </div>
+                <button class="mobile-menu-button md:hidden text-gray-600" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 space-y-4">
+                <a href="index.html#features" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Features</a>
+                <a href="index.html#benefits" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Benefits</a>
+                <a href="index.html#testimonials" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Testimonials</a>
+                <a href="index.html#about" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">About Us</a>
+                <a href="blog.html" class="block text-blue-600 font-semibold hover:text-blue-700 transition duration-300 py-2">Blog</a>
+                <a href="products.html" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Products</a>
+                <a href="contact.html" class="block text-gray-600 hover:text-blue-600 transition duration-300 py-2">Contact</a>
             </div>
         </nav>
     </header>
 
-    <section class="pt-32 pb-24 bg-gradient-to-r from-blue-50 to-blue-100">
+    <!-- Blog Header -->
+    <section class="pt-32 pb-12 bg-gradient-to-r from-blue-50 to-blue-100">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-                    Our Blog
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                    Sleep Science & Insights
                 </h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-10">
-                    Expert insights and research-backed articles about sleep science, health, and wellness
+                <p class="text-xl text-gray-600 mb-8">
+                    Expert advice, research, and tips for your best sleep ever
                 </p>
             </div>
         </div>
     </section>
 
-    <section class="py-24 bg-white">
+    <!-- Blog Content -->
+    <section class="py-16 bg-white">
         <div class="container mx-auto px-6">
-            <div class="max-w-4xl mx-auto mb-16">
-                <p class="text-lg text-gray-600 text-center">
-                    Explore our collection of in-depth articles covering sleep science, wellness tips, product reviews, and expert advice to help you achieve better sleep and improved well-being.
-                </p>
-            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Main Content -->
+                <div class="md:col-span-2 space-y-12">
+                    <!-- Blog Post 1 -->
+                    <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sleep cycles explained" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <div class="text-sm text-blue-600 mb-2">March 15, 2024 • Sleep Science</div>
+                            <h2 class="text-2xl font-bold mb-4 hover:text-blue-600 transition duration-300">Understanding Sleep Cycles: The Key to Restorative Rest</h2>
+                            <p class="text-gray-600 mb-6">Sleep isn't just one long, continuous state but rather a series of cycles through different stages. Each cycle plays a crucial role in physical recovery, memory consolidation, and overall health. Learn how to optimize your sleep schedule to work with your natural cycles.</p>
+                            <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 transition duration-300">Read More →</a>
+                        </div>
+                    </article>
 
-            <div class="max-w-4xl mx-auto">
-                <article class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 mb-12">
-                    <div class="text-sm text-gray-500 mb-4">February 19, 2025</div>
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4">
-                        The Science of Sleep: Understanding Sleep Cycles and Circadian Rhythms
-                    </h2>
-                    <p class="text-gray-600 mb-6">
-                        Discover the intricate science behind sleep cycles and circadian rhythms in this comprehensive guide. Sleep consists of multiple 90-120 minute cycles, alternating between Non-REM and REM stages, each serving crucial functions for physical and mental restoration. Your circadian rhythm, regulated by factors like light exposure and temperature, controls your 24-hour sleep-wake cycle. Modern challenges like screen time and irregular schedules can disrupt these natural patterns. Learn evidence-based strategies to optimize your sleep, including maintaining consistent schedules, controlling light exposure, and creating ideal sleep environments. Understanding these mechanisms is key to achieving better rest and overall well-being.
-                    </p>
-                    <a href="https://Nubwire.github.io/discover-the-best-tools-for-better-sleep---your-ultimate-guide-to-restful-nights-2025-02-19-l4u43/blog/the-science-of-sleep-understanding-sleep-cycles-an.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition duration-300">
-                        Read More
-                    </a>
-                </article>
+                    <!-- Blog Post 2 -->
+                    <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1505158498176-0150297fbd7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Bedroom environment" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <div class="text-sm text-blue-600 mb-2">March 8, 2024 • Sleep Environment</div>
+                            <h2 class="text-2xl font-bold mb-4 hover:text-blue-600 transition duration-300">The Perfect Bedroom: Creating Your Sleep Sanctuary</h2>
+                            <p class="text-gray-600 mb-6">Your bedroom environment has a profound impact on sleep quality. From temperature and lighting to noise levels and bedding, discover how to transform your bedroom into the ultimate sleep sanctuary for deeper, more restful nights.</p>
+                            <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 transition duration-300">Read More →</a>
+                        </div>
+                    </article>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 opacity-50">
-                        <div class="h-48 flex items-center justify-center border-2 border-dashed border-gray-300 rounded-lg">
-                            <p class="text-gray-400">Future Blog Post</p>
+                    <!-- Blog Post 3 -->
+                    <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1515894274780-af5d4d90b336?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Sleep technology" class="w-full h-64 object-cover">
+                        <div class="p-8">
+                            <div class="text-sm text-blue-600 mb-2">February 28, 2024 • Sleep Technology</div>
+                            <h2 class="text-2xl font-bold mb-4 hover:text-blue-600 transition duration-300">2024's Top Sleep Tracking Devices: A Comprehensive Review</h2>
+                            <p class="text-gray-600 mb-6">With the explosion of sleep technology, choosing the right sleep tracker can be overwhelming. Our sleep specialists have tested the latest devices to help you find the perfect match for your sleep monitoring needs.</p>
+                            <a href="#" class="text-blue-600 font-semibold hover:text-blue-800 transition duration-300">Read More →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="space-y-8">
+                    <!-- Categories -->
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold mb-4">Categories</h3>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition duration-300">Sleep Science (14)</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition duration-300">Sleep Environment (9)</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition duration-300">Sleep Technology (11)</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition duration-300">Sleep Disorders (8)</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition duration-300">Sleep Nutrition (6)</a></li>
+                            <li><a href="#" class="text-gray-600 hover:text-blue-600 transition duration-300">Sleep & Wellness (12)</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Popular Posts -->
+                    <div class="bg-gray-50 rounded-xl p-6">
+                        <h3 class="text-xl font-bold mb-4">Popular Posts</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1583900985737-6d0495555783?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Sleep position" class="w-full h-full object-cover">
+                                </div>
+                                <div>
+                                    <a href="#" class="font-semibold hover:text-blue-600 transition duration-300">The Best Sleep Position for Your Body Type</a>
+                                    <p class="text-sm text-gray-500">4.2K views</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1512400930990-e0bc0bd809df?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Sleep nutrition" class="w-full h-full object-cover">
+                                </div>
+                                <div>
+                                    <a href="#" class="font-semibold hover:text-blue-600 transition duration-300">Foods That Help (and Hurt) Your Sleep</a>
+                                    <p class="text-sm text-gray-500">3.8K views</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="flex-shrink-0 w-16 h-16 bg-gray-200 rounded overflow-hidden">
+                                    <img src="https://images.unsplash.com/photo-1519003300449-424ad0405076?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Sleep meditation" class="w-full h-full object-cover">
+                                </div>
+                                <div>
+                                    <a href="#" class="font-semibold hover:text-blue-600 transition duration-300">5-Minute Meditation for Better Sleep</a>
+                                    <p class="text-sm text-gray-500">3.5K views</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition duration-300 opacity-50">
-                        <div class="h-48 flex items-center justify-center border-2 border-dashed border-gray-300 rounded-lg">
-                            <p class="text-gray-400">Future Blog Post</p>
-                        </div>
+
+                    <!-- Newsletter -->
+                    <div class="bg-blue-600 text-white rounded-xl p-6">
+                        <h3 class="text-xl font-bold mb-4">Sleep Tips Newsletter</h3>
+                        <p class="mb-4">Get weekly sleep tips, product recommendations, and exclusive offers delivered to your inbox.</p>
+                        <form class="space-y-4">
+                            <input type="email" placeholder="Your email address" class="w-full px-4 py-2 rounded text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                            <button type="submit" class="w-full bg-white text-blue-600 font-semibold px-4 py-2 rounded hover:bg-gray-100 transition duration-300">Subscribe</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-gray-900 text-white py-16">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">SleepGuide</h3>
-                    <p class="text-gray-400">Your ultimate resource for better sleep.</p>
+                    <p class="text-gray-400">Transforming sleep quality worldwide.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
@@ -87,16 +179,20 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="#features" class="text-gray-400 hover:text-white transition duration-300">Features</a></li>
-                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition duration-300">Benefits</a></li>
-                        <li><a href="#faq" class="text-gray-400 hover:text-white transition duration-300">FAQ</a></li>
+                        <li><a href="index.html#features" class="text-gray-400 hover:text-white transition duration-300">Features</a></li>
+                        <li><a href="index.html#benefits" class="text-gray-400 hover:text-white transition duration-300">Benefits</a></li>
+                        <li><a href="index.html#testimonials" class="text-gray-400 hover:text-white transition duration-300">Testimonials</a></li>
+                        <li><a href="index.html#about" class="text-gray-400 hover:text-white transition duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition duration-300">Blog</a></li>
+                        <li><a href="products.html" class="text-gray-400 hover:text-white transition duration-300">Products</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition duration-300">Contact</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -105,5 +201,35 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
